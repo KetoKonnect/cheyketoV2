@@ -1,0 +1,37 @@
+{% extends "shop/base.html" %}
+
+{% block title %}Keto Konnect 242 | Shop{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="tile is-ancestor is-flex-wrap-wrap is-justify-content-center">
+        {% for product in products %}
+        <div class="tile is-3 m-2">
+        
+            <div class="card">
+                <div class="card-image">
+                <a href="{{ product.get_absolute_url }}">
+                    <figure class="image">
+                    {% if product.image.url != null  %}
+                        <img src="{{ product.image }}" alt="Display Image" width="150" height="150">
+                    {% else %}
+                        <img src="https://via.placeholder.com/150" alt="Display Image">
+                    {% endif %}
+                    </figure>
+                    </a>
+                </div>
+                
+                <div class="content p-2 has-text-centered">
+                    <h1 class="m-2">
+                        {{ product.name }}
+                    </h1>
+                        <h5>${{ product.price }}</h5>
+                    {{ product.description|linebreaks }}
+                </div>
+                
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %} {% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/2e1c2bdb17.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="{% static "logo/keto_emblem.png" %}" class="image">
+        <h1 class="m-2 has-text-weight-semibold">Keto Konnect 242</h1>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item is-active" href="{% url "shop:product_list" %}">
+          Shop
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="{% url "cart:cart_detail" %}" class="navbar-item">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            {% with total_items=cart|length %}
+            {% if total_items > 0 %}
+            <span>Your cart: {{ total_items }} item{{ total_items|pluralize }}, ${{ cart.get_total_price }}</span>
+            {% else %}
+            <span>Your cart is empty.</span>
+            {% endif %}
+            {% endwith %}
+        </a>
+      </div>
+    </div>
+
+  </nav>
+  <section class="section">
+    {% block content %}
+    {% endblock %}
+  </section>
+</body>
+
+</html>

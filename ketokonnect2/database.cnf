@@ -1,0 +1,5 @@
+[client]
+database = 'KetoKonnect2'
+user = 'root'
+password = 'toor'
+default-character-set = 'utf8'
