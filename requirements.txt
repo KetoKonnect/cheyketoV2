@@ -49,11 +49,11 @@ celery == 5.2.3
 # django-shop == 1.2.4
 
 # C:\Users\ejay0\Documents\Code\ketokonnect2\ketokonnect2\settings.py: 149
-django_heroku == 0.3.1
+django-heroku == 0.3.1
 
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\migrations\0001_initial.py: 4
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 3
-django_phonenumber_field == 6.1.0
+django-phonenumber-field == 6.1.0
 
 # C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
 # C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
@@ -69,4 +69,7 @@ django_phonenumber_field == 6.1.0
 # C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
 # shopsite == 0.3.1
-mysqlclient
+maraidb == 1.0.10
+mysqlclient == 2.1.0
+phonenumberslite==8.12.44
+Pillow == 9.0.1
