@@ -144,3 +144,7 @@ EMAIL_HOST_USER = 'ketokonnect242@gmail.com'
 EMAIL_HOST_PASSWORD = 'ok3fv%kh'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+# Configure Django for Heroku
+import django_heroku
+django_heroku.settings(locals())
