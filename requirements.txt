@@ -40,3 +40,5 @@ django_heroku == 0.3.1
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\migrations\0001_initial.py: 4
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 3
 django_phonenumber_field == 6.1.0
+
+mysqlclient
