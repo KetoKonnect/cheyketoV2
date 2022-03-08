@@ -69,3 +69,4 @@ django_phonenumber_field == 6.1.0
 # C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
 # shopsite == 0.3.1
+mysqlclient
