@@ -13,7 +13,7 @@
                 <a href="{{ product.get_absolute_url }}">
                     <figure class="image">
                     {% if product.image.url != null  %}
-                        <img src="{{ product.image }}" alt="Display Image" width="150" height="150">
+                        <img src="{{ product.image.url }}" alt="Display Image" width="150" height="150">
                     {% else %}
                         <img src="https://via.placeholder.com/150" alt="Display Image">
                     {% endif %}
