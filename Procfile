@@ -1,1 +1,1 @@
-web: python ketokonnect2/manage.py runserver
+web: python manage.py runserver
