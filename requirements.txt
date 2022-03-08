@@ -31,8 +31,22 @@
 # C:\Users\ejay0\Documents\Code\ketokonnect2\shop\views.py: 1
 Django == 4.0.2
 
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\views.py: 4
+# C:\Users\ejay0\Documents\Code\ketokonnect2\shop\views.py: 3
+# cart == 1.2.1
+
 # C:\Users\ejay0\Documents\Code\ketokonnect2\ketokonnect2\celery.py: 2
 celery == 5.2.3
+
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
+# django-mp-shop == 4.0.15
+
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
+# django-shop == 1.2.4
 
 # C:\Users\ejay0\Documents\Code\ketokonnect2\ketokonnect2\settings.py: 149
 django_heroku == 0.3.1
@@ -41,4 +55,17 @@ django_heroku == 0.3.1
 # C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 3
 django_phonenumber_field == 6.1.0
 
-mysqlclient
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
+# pixelcms-shop-server == 0.0.1
+
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
+# shop-vitrine == 1.0
+
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\cart.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\cart\views.py: 3
+# C:\Users\ejay0\Documents\Code\ketokonnect2\orders\models.py: 2
+# shopsite == 0.3.1
